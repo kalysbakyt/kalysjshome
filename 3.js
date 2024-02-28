@@ -29,19 +29,4 @@ if (dayNumber >= 1 && dayNumber < 32) {
 }
    
 
-// const dayNumber = +prompt('Введите целое число от 1 до 31');
-
-// if (dayNumber >= 1 && dayNumber < 32) {
-//     if (dayNumber <= 10) {
-//         alert(`Число ${dayNumber} попадает в первую декаду месяца.`);
-//     } else if (dayNumber > 20) {
-//         alert(`Число ${dayNumber} попадает в третью декаду месяца.`);
-//     } else {
-//         alert(`Число ${dayNumber} попадает во вторую декаду месяца.`);
-//     }
-// } else {
-//     alert("Неверное значение");
-// }
-
-
   
