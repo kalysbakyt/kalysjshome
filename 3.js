@@ -10,8 +10,8 @@
 три числа. Проверять их не нужно.
 */
 
-function findMax(n1,n2,n3) {
-  let max = Math.max(n1,n2,n3)
+function findMax(n1, n2, n3) {
+  let max = Math.max(n1, n2, n3)
   console.log(`Максимальное значение среди чисел ${n1}, ${n2}, ${n3} равно ${max}.`);
 }
 let n1 = prompt('Введите первое число');
