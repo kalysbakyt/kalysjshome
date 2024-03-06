@@ -18,4 +18,23 @@ console.log(sum(2, 6)); должно вывести число 8 в консол
 Демонстрировать работы функций не обязательно.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+function sum(a, b) {
+    return a + b ;
+}
+function diff(a, b) {
+    if (a > b) {
+       return a - b ;
+    } else {
+       return b - a ;
+    }
+}
+function multiply(a, b) {
+    return (a * b) ;
+}
+function divide(a, b) {
+    return (a / b) ;
+}
+console.log(sum(2, 6));
+console.log(diff(2, 6));
+console.log(multiply(2, 6));
+console.log(divide(2, 6));
