@@ -8,7 +8,7 @@
 */
 
 function getcube(number) {
-    return Math.pow(number, 3);
+    return number ** 3;
 }
 
 getcube(2);
